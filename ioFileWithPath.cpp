@@ -7,4 +7,7 @@ int main()
 {
     string baris;
     string namafile;
+
+    cout << "memasukan nama file : ";
+    cin >> namafile;
 }
