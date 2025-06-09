@@ -16,4 +16,13 @@ int main ()
         //memanggil array elemen ke 5
     } 
 
+    catch (exception &e)
+    {
+        //penangkap menggunakan obyek exception
+        cout << e.what() << endl;
+        /*akan dieksekusi karna array data hanya memiliki 3 elemen*/
+    }
+    cout << "baris program yang terakhir" << endl;
+
+    return 0;
 }
