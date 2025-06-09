@@ -9,4 +9,9 @@ int main ()
 
     //membuat obyek output file stream dalam mode menulis 
     ofstream outfile;
-}
+    //membuat file 
+    outfile.open("contohfile.txt");
+
+    cout << ">= menulis file, \'q\' untuk keluar" << endl;
+    
+    }
